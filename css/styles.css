@@ -1,0 +1,75 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  text-align: left;
+}
+
+p{
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+h1{
+  font-weight:700;
+}
+
+
+h3{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bottom-section-first-div{
+  font-weight: 600;
+}
+
+.container{
+  display: inline-flex; /*allows the divs inside it to be side by side to eachother*/
+  border-radius: 10px;
+  width: 70%;
+  position: relative;
+  left: 180px;
+  top: 140px;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.first-big-div{
+  padding: 0px 80px 50px 40px;
+
+}
+
+
+.purple-text{
+  color: hsl(277, 64%, 61%);
+}
+
+.div-one{
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.second-big-div{
+  background-color: hsl(277, 64%, 61%);
+}
+
+.p1{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* second coloumn */
+
+.big-img{
+  max-width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+
+.attribution{
+  position: relative;
+  left: 32%;
+  top: 150px;
+}
